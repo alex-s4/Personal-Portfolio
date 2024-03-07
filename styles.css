@@ -7,14 +7,29 @@
     font-family: sans-serif;
 }
 
-
+*.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+ 
+    /*
+      Introduced in IE 10.
+      See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+    */
+    -ms-user-select: none;
+    user-select: none;
+ }
 
 nav {
     border: 1px solid #000000;
     background: #1f628d;
 }
 
-main
+/* main */
+
+.margin-right-m {
+    margin-right: 86px;
+}
 
 .margin-y-1 {
     margin: 25px 0;
@@ -33,11 +48,28 @@ main
     margin-right: 26px;
 }
 
+.text-blue {
+    color: blue;
+}
+
+.text-split-blue-red {
+    background: linear-gradient(to right, blue 50%, red 50%);
+    background-clip: text;
+  /*add this line, it defines how far the background should extend within an element, here we set it to text */
+  -webkit-background-clip: text;
+  /* add this line, for browsers compatibility */
+  -webkit-text-fill-color: transparent;
+}
+
+.text-red {
+    color: red;
+}
+
 .nav-main a {
     font-family: "Kode Mono", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 32px;
+    font-size: 26px;
     text-decoration: none;
     color: #ffffffe8;
 }
@@ -121,6 +153,9 @@ main
 }
 
 .main-bkg {
+    position: fixed;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
     background-color: #22222231;
     background: linear-gradient(rgba(255, 255, 255, 0.9), #dfedfac0), url("/img/programming-1.jpg");
     background-repeat: no-repeat;
@@ -151,11 +186,16 @@ main
     font-family: "Kode Mono", sans-serif;
 }
 
+.landing-icons {
+    margin-bottom: 60px;
+}
+
 .landing-icons i {
     font-size: 5.4rem;
     margin-left: 32px;
     transition: color 0.6s;
     color: #000000;
+    z-index: 999;
 }
 
 .landing-icons i:hover {
@@ -165,7 +205,7 @@ main
 
 
 .sixtyfour-unmotivated {
-    top: 21.5rem;
+    top: 17.5rem;
     z-index: 2;
     position: absolute;
     font-family: "Sixtyfour", sans-serif;
@@ -174,6 +214,29 @@ main
     font-style: normal;
     font-variation-settings: "BLED" 0, "SCAN" 0;
     color: #1f628d;
-    font-size: 10.3em;
-    opacity: .2;
+    font-size: 8.3em;
+    opacity: .4;
+    transform: rotate(-10deg);
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.feat-cont {
+    width: 56em;
+}
+
+.feat-count {
+    font-family: "Kode Mono", sans-serif;
+    font-size: 2.7rem;
+}
+
+.feat-box {
+    margin-left: 22px;
+}
+
+.feat-desc {
+    font-size: 1.4rem;
 }
