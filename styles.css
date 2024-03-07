@@ -45,7 +45,8 @@ nav {
 
 .nav-main li {
     display: inline;
-    margin-right: 26px;
+    margin-right: 36px;
+    padding: 15px 0;
 }
 
 .text-blue {
@@ -66,16 +67,21 @@ nav {
 }
 
 .nav-main a {
-    font-family: "Kode Mono", sans-serif;
+    font-family: "Montserrat", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 26px;
     text-decoration: none;
+    text-transform: uppercase;
     color: #ffffffe8;
+    padding: 0 14px 11px;
+    transition: border 0.1s;
+    
 }
 
 .nav-main a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 5px solid #fff;
 }
 
 .nav-brand {
@@ -167,6 +173,7 @@ nav {
 .jumbotron-text {
     position: relative;
     text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
     font-size: 7.25rem;
     font-weight: 800;
     line-height: 100px;
@@ -205,16 +212,16 @@ nav {
 
 
 .sixtyfour-unmotivated {
-    top: 17.5rem;
+    top: 9.5rem;
     z-index: 2;
     position: absolute;
-    font-family: "Sixtyfour", sans-serif;
+    font-family: "Rock Salt", cursive;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings: "BLED" 0, "SCAN" 0;
+    /* font-variation-settings: "BLED" 0, "SCAN" 0; */
     color: #1f628d;
-    font-size: 8.3em;
+    font-size: 7.3em;
     opacity: .4;
     transform: rotate(-10deg);
 }
@@ -234,9 +241,19 @@ nav {
 }
 
 .feat-box {
-    margin-left: 22px;
+    margin-left: 122px;
 }
 
 .feat-desc {
     font-size: 1.4rem;
+}
+
+.get-a-life {
+    position: absolute;
+    font-family: "Rock Salt", cursive;
+    color: #1f628d;
+    right: 5vw;
+    top: 55vh;
+    transform: rotate(15deg);
+    opacity: .7;
 }
