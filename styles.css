@@ -230,7 +230,7 @@ nav {
     font-style: normal;
     /* font-variation-settings: "BLED" 0, "SCAN" 0; */
     color: #1f628d;
-    font-size: 7.3em;
+    font-size: 6.3em;
     opacity: .4;
     transform: rotate(-10deg);
 }
@@ -241,7 +241,8 @@ nav {
 }
 
 .feat-cont {
-    width: 56em;
+    width: 71em;
+    padding-bottom: 32px;
 }
 
 .feat-count {
@@ -252,11 +253,11 @@ nav {
 }
 
 .feat-box {
-    margin-left: 122px;
+    margin-left: 80px;
 }
 
 .feat-desc {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .get-a-life {
@@ -264,9 +265,27 @@ nav {
     font-family: "Rock Salt", cursive;
     color: #1f628d;
     right: 5vw;
-    top: 53vh;
+    top: 51vh;
     transform: rotate(15deg);
     opacity: .7;
+}
+
+.tech-stax-text {
+    position: absolute;
+    top: 71vh;
+    right: 44vw;
+    font-family: "Rock Salt", cursive;
+    color: #1f628d;
+    transform: rotate(-15deg);
+    opacity: .7;
+}
+
+.tech-icons {
+    font-size: 5.4rem;
+    text-align: center;
+    margin-top: 26px;
+    /* margin-left: 115px; */
+    word-spacing: 0.5rem;
 }
 
 #feat-proj-dropdown {
@@ -300,7 +319,7 @@ nav {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 1rem;
+    padding: 1.3rem;
     background: #11364ea2;
     color: white;
     font-weight: 500;
