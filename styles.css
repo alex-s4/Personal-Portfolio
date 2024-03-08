@@ -172,7 +172,7 @@ nav {
     width: -webkit-fill-available;
     height: -webkit-fill-available;
     background-color: #22222231;
-    background: linear-gradient(rgba(255, 255, 255, 0.9), #dfedfac0), url("/img/programming-1.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.9), #dfedfac0), url("img/programming-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: bottom; */
