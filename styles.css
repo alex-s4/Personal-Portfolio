@@ -280,6 +280,16 @@ nav {
     opacity: .7;
 }
 
+.still-learning-text {
+    position: absolute;
+    top: 79vh;
+    right: 50vw;
+    font-family: "Rock Salt", cursive;
+    color: #1f628d;
+    transform: rotate(-15deg);
+    opacity: .7;
+}
+
 .tech-icons {
     font-size: 5.4rem;
     text-align: center;
