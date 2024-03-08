@@ -1,3 +1,12 @@
+// AUTOMATICALLY UPDATE CURRENT YEAR IN FOOTER
+
+let year = document.querySelector("#year");
+
+$(document).ready(function () {
+  year.innerText = new Date().getFullYear();
+});
+
+
 // NUMBERS FROM LANDING PAGE WILL COUNT
 
 const counters = document.querySelectorAll('.value');
