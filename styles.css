@@ -298,31 +298,42 @@ nav {
     word-spacing: 0.5rem;
 }
 
-#feat-proj-dropdown {
+.dropdown {
     position: absolute;
     z-index: 999;
-    right: 35.6vw;
     display: none;
-    width: 391.36px;
 }
 
-#feat-proj-dropdown ul {
+.dropdown a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;    
+}
+
+.dropdown ul {
     list-style-type: none;
 }
 
-#feat-proj-dropdown li {
+#feat-proj-dropdown {
+    /* position: absolute;
+    z-index: 999; */
+    right: 36.9vw;
+    /* display: none; */
+    width: 391.36px;
+}
+
+#connect-dropdown {
+    right: 19.2vw;
+}
+
+
+.dropdown li {
     background-color: aliceblue;
     padding: 12px 35px;
     border-bottom: 1px solid #3498db;
     text-align: center;
 }
 
-#feat-proj-dropdown a {
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-family: "Montserrat", sans-serif;
-    
-}
 
 .footer {
     position: absolute;
