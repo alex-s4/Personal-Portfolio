@@ -273,7 +273,7 @@ nav {
 .tech-stax-text {
     position: absolute;
     top: 71vh;
-    right: 44vw;
+    right: 50vw;
     font-family: "Rock Salt", cursive;
     color: #1f628d;
     transform: rotate(-15deg);
@@ -283,7 +283,7 @@ nav {
 .still-learning-text {
     position: absolute;
     top: 79vh;
-    right: 50vw;
+    right: 55vw;
     font-family: "Rock Salt", cursive;
     color: #1f628d;
     transform: rotate(-15deg);
@@ -338,4 +338,13 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 0.8rem;
+  }
+
+  .footer-brand-name {
+    color: rgb(183, 232, 255);
+  }
+
+  .footer-icons a {
+    color: rgb(183, 232, 255);
+    padding: 0 1.4vw;
   }
