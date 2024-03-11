@@ -63,7 +63,7 @@ nav {
 }
 
 .text-split-blue-red {
-    background: linear-gradient(to right, blue 50%, red 50%);
+    background: linear-gradient(to bottom, blue 50%, red 50%);
     background-clip: text;
   /*add this line, it defines how far the background should extend within an element, here we set it to text */
   -webkit-background-clip: text;
@@ -190,12 +190,16 @@ nav {
     z-index: 999;
 }
 
-.main-display-text-1 {
+.main-display-text-1{
     margin-bottom: 8px;
 }
 
 .main-display-text-2 {
     margin-bottom: 60px;
+}
+
+.poem-first-verse {
+    margin-bottom: 14px;
 }
 
 .main-display-text-1, .main-display-text-2 h2 {
@@ -240,6 +244,13 @@ nav {
     grid-template-columns: auto auto;
 }
 
+.landing-poem .poem-content p {
+    font-family: "Kode Mono", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: #005705;
+}
+
 .feat-cont {
     width: 71em;
     padding-bottom: 32px;
@@ -273,7 +284,7 @@ nav {
 .tech-stax-text {
     position: absolute;
     top: 71vh;
-    right: 50vw;
+    right: 48vw;
     font-family: "Rock Salt", cursive;
     color: #1f628d;
     transform: rotate(-15deg);
@@ -283,7 +294,7 @@ nav {
 .still-learning-text {
     position: absolute;
     top: 79vh;
-    right: 55vw;
+    right: 53vw;
     font-family: "Rock Salt", cursive;
     color: #1f628d;
     transform: rotate(-15deg);
