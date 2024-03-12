@@ -7,11 +7,6 @@
     font-family: "Montserrat", sans-serif;
 }
 
-body {
-    height: 100vh;
-    overflow: hidden;
-}
-
 *.unselectable {
     -moz-user-select: -moz-none;
     -khtml-user-select: none;
@@ -26,11 +21,20 @@ body {
  }
 
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     border: 1px solid #000000;
     background: #1f628d;
+    z-index: 999;
 }
 
 /* main */
+
+.align-center {
+    align-items: center;
+}
 
 .margin-right-m {
     margin-right: 86px;
@@ -45,7 +49,7 @@ nav {
 }
 
 .padding-bot-5 {
-    padding-bottom: 8px;
+    padding-bottom: 18px;
 }
 
 .nav-main li {
@@ -125,8 +129,8 @@ nav {
 }
 
 .main-content {
-    height: 92.3vh;
-    padding: 50px 0px 0px 60px;
+    /* height: 92.3vh; */
+    padding: 145px 15vw 60px;
 }
 
 .main-dialog-1 {
@@ -168,13 +172,16 @@ nav {
 }
 
 .main-bkg {
-    position: fixed;
+    height: auto;
+    /* overflow: hidden; */
+    position: absolute;
     width: -webkit-fill-available;
-    height: -webkit-fill-available;
+    /* height: -webkit-fill-available; */
     background-color: #22222231;
     background: linear-gradient(rgba(255, 255, 255, 0.9), #dfedfac0), url("img/programming-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     /* background-position: bottom; */
     /* opacity: ; */
 }
@@ -183,27 +190,38 @@ nav {
     position: relative;
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
-    font-size: 7.25rem;
+    font-size: 7.15rem;
     font-weight: 800;
-    line-height: 100px;
+    line-height: 129px;
     margin-top: 10px;
-    z-index: 999;
+    z-index: 990;
+}
+
+.jumbotron-text span{
+    letter-spacing: 14px;
 }
 
 .main-display-text-1{
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .main-display-text-2 {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
+    
 }
+
+.main-display-text-2 h2, .main-display-text-2 h2 span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
 
 .poem-first-verse {
     margin-bottom: 14px;
 }
 
-.main-display-text-1, .main-display-text-2 h2 {
-    font-family: "Kode Mono", sans-serif;
+.main-display-text-1, {
+    font-family: "Montserrat", sans-serif;
 }
 
 .landing-icons {
@@ -225,7 +243,8 @@ nav {
 
 
 .sixtyfour-unmotivated {
-    top: 9.5rem;
+    top: 28.5rem;
+    left: 29rem;
     z-index: 2;
     position: absolute;
     font-family: "Rock Salt", cursive;
@@ -234,9 +253,9 @@ nav {
     font-style: normal;
     /* font-variation-settings: "BLED" 0, "SCAN" 0; */
     color: #1f628d;
-    font-size: 6.3em;
+    font-size: 2.8em;
     opacity: .4;
-    transform: rotate(-10deg);
+    /* transform: rotate(-10deg); */
 }
 
 .grid-container-2 {
@@ -273,28 +292,31 @@ nav {
 
 .get-a-life {
     position: absolute;
-    font-family: "Rock Salt", cursive;
-    color: #1f628d;
-    right: 5vw;
-    top: 51vh;
+    font-size: 5rem;
+    right: 15vw;
+    top: 75vh;
     transform: rotate(15deg);
-    opacity: .7;
+    opacity: .5;
 }
 
 .tech-stax-text {
     position: absolute;
-    top: 71vh;
-    right: 48vw;
+    top: 96vh;
+    right: 68vw;
     font-family: "Rock Salt", cursive;
     color: #1f628d;
     transform: rotate(-15deg);
     opacity: .7;
 }
 
+.tech-stacks-cont {
+    margin-bottom: 75px;
+}
+
 .still-learning-text {
     position: absolute;
-    top: 79vh;
-    right: 53vw;
+    top: 101vh;
+    right: 70vw;
     font-family: "Rock Salt", cursive;
     color: #1f628d;
     transform: rotate(-15deg);
@@ -313,6 +335,7 @@ nav {
     position: absolute;
     z-index: 999;
     display: none;
+    top: 64px;
 }
 
 .dropdown a {
@@ -328,13 +351,13 @@ nav {
 #feat-proj-dropdown {
     /* position: absolute;
     z-index: 999; */
-    right: 36.9vw;
+    right: 36.5vw;
     /* display: none; */
     width: 391.36px;
 }
 
 #connect-dropdown {
-    right: 19.2vw;
+    right: 18.7vw;
 }
 
 
@@ -347,7 +370,7 @@ nav {
 
 
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
