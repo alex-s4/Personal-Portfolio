@@ -10,7 +10,7 @@ $(document).ready(function () {
 // NUMBERS FROM LANDING PAGE WILL COUNT
 
 const counters = document.querySelectorAll('.value');
-const speed = 10;
+const speed = 1100;
 
 counters.forEach( counter => {
    const animate = () => {
@@ -20,7 +20,7 @@ counters.forEach( counter => {
       const time = value / speed;
      if(data < value) {
           counter.innerText = Math.ceil(data + time);
-          setTimeout(animate, 100);
+          setTimeout(animate, 0.05);
         }else{
           counter.innerText = value + "+";
         }
