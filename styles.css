@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     margin: 0;
@@ -20,6 +20,10 @@
     user-select: none;
  }
 
+.rock-salt{
+    font-family: "Rock Salt", cursive;
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -30,7 +34,9 @@ nav {
     z-index: 999;
 }
 
-/* main */
+.narrower-content {
+    padding: 0 8vw;
+}
 
 .align-center {
     align-items: center;
@@ -38,6 +44,14 @@ nav {
 
 .margin-right-m {
     margin-right: 86px;
+}
+
+.margin-right-s1 {
+    margin-right: 40px;
+}
+
+.margin-bot-s1 {
+    margin-bottom: 40px;
 }
 
 .margin-y-1 {
@@ -127,7 +141,7 @@ nav {
 
 .main-content {
     /* height: 92.3vh; */
-    padding: 145px 15vw 60px;
+    padding: 145px 16vw 60px;
 }
 
 .main-dialog-1 {
@@ -268,7 +282,7 @@ nav {
 
 .feat-cont {
     width: 85em;
-    padding-bottom: 32px;
+    padding-bottom: 69px;
 }
 
 .feat-count {
@@ -329,8 +343,7 @@ nav {
 .tech-icons {
     font-size: 5.4rem;
     text-align: center;
-    margin-top: 26px;
-    /* margin-left: 115px; */
+    margin-top: 14px;
     word-spacing: 0.5rem;
 }
 
@@ -388,11 +401,54 @@ nav {
     gap: 0.8rem;
   }
 
-  .footer-brand-name {
+.footer-brand-name {
     color: rgb(183, 232, 255);
-  }
+}
 
-  .footer-icons a {
+.footer-icons a {
     color: rgb(183, 232, 255);
     padding: 0 1.4vw;
-  }
+}
+
+.bio-main-img {
+    width: 603px;
+}
+
+h1.bio-title-primary {
+    /* position: absolute;
+    top: 90px; */
+    font-size: 2em;
+    color: #184c6d;
+    /* margin-bottom: 4px; */
+}
+
+/* h2.bio-text-primary {
+    font-size: 1.4em;
+    font-family: "Inter", sans-serif;
+    color: #20323d;
+    margin-bottom: 15px;
+} */
+
+.bio-text-primary-cont {
+    margin: 20px 0 35px;
+}
+
+p.bio-text-primary {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #20323dd3;
+    margin-bottom: 14px;
+    font-weight: 600;
+}
+
+.bio-title-secondary {
+    color: #184c6d;
+    font-size: 1.8em;
+}
+
+p.bio-text-secondary {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color: #20323d;
+    margin-bottom: 12px;
+}
