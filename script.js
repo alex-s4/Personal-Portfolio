@@ -113,5 +113,12 @@ switch (currentPage) {
     break;
   case "/about.html":
     navAboutText.style.borderBottom = "5px solid #fff"
+    console.log("x")
     break;
+}
+
+const landingAboutBtn = document.getElementById("landing-about-btn");
+
+landingAboutBtn.onclick = function () {
+  location.href = "/about.html";
 }
