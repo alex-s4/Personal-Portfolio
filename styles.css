@@ -267,7 +267,7 @@ nav {
 }
 
 .feat-cont {
-    width: 71em;
+    width: 85em;
     padding-bottom: 32px;
 }
 
@@ -279,7 +279,9 @@ nav {
 }
 
 .feat-box {
-    margin-left: 80px;
+    margin-left: 70px;
+    border-left: 1px solid #013d8149;
+    padding: 0px 25px;
 }
 
 .feat-desc {
@@ -289,7 +291,7 @@ nav {
 .get-a-life {
     position: absolute;
     font-size: 5rem;
-    right: 15vw;
+    right: 7vw;
     top: 75vh;
     transform: rotate(15deg);
     opacity: .5;
@@ -311,7 +313,7 @@ nav {
 }
 
 .btn-main {
-    margin-bottom: 40px;
+    margin-bottom: 69px;
 }
 
 .still-learning-text {

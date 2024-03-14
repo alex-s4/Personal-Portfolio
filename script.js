@@ -124,7 +124,7 @@ switch (currentPage) {
   case "/about.html":
     navAboutText.style.borderBottom = "5px solid #fff"
     navAboutText.style.backgroundImage = "linear-gradient(0deg, #fff 0%, #1f628d 10%)"
-    console.log("x")
+
     break;
 }
 
