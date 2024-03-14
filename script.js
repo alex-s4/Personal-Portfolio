@@ -40,6 +40,25 @@ const navConnect = document.querySelector("#nav-contact");
 const navConnectText = document.querySelector("#nav-contact a");
 const navConnectDropDown = document.querySelector("#connect-dropdown");
 
+// const dropDownDisplay = [
+//   {
+//     name: "hovered",
+//     "dropdown display": "block",
+//     "navbar bottom border": "5px solid #fff"
+//   },
+//   {
+//     name: "not hovered",
+//     "dropdown display": "none",
+//     "navbar bottom border": "none"
+//   }
+// ]
+
+// function navMouseOver() {
+//   this.
+// }
+
+// navProj.addEventListener("mouseover", navMouseOver);
+
 
 navProj.onmouseover = function(){
     navProjDropDown.style.display = "block";
@@ -80,3 +99,6 @@ navConnectDropDown.onmouseout = function(){
   navConnectDropDown.style.display = "none";
   navConnectText.style.borderBottom = "none";
 }
+
+
+// NAV MENU INDICATOR ON CURRENT PAGE
