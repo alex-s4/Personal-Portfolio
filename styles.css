@@ -24,6 +24,14 @@
     font-family: "Rock Salt", cursive;
 }
 
+.primary-text-color {
+    color: #184c6d;
+}
+
+.pp-color {
+    color: #8000ff;
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -444,6 +452,7 @@ p.bio-text-primary {
 .bio-title-secondary {
     color: #184c6d;
     font-size: 1.8em;
+    margin-bottom: 30px;
 }
 
 p.bio-text-secondary {
