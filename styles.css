@@ -262,7 +262,7 @@ nav {
 
 
 .sixtyfour-unmotivated {
-    top: 28rem;
+    top: 15rem;
     left: 9rem;
     z-index: 2;
     position: absolute;
@@ -271,7 +271,7 @@ nav {
     font-weight: 400;
     font-style: normal;
     color: #1f628d;
-    font-size: 1.8em;
+    font-size: 160px;
     opacity: .7;
     transform: rotate(-25deg);
 }
@@ -313,7 +313,7 @@ nav {
 .get-a-life {
     position: absolute;
     font-size: 5rem;
-    right: 7vw;
+    right: 15vw;
     top: 75vh;
     transform: rotate(15deg);
     opacity: .5;
@@ -460,4 +460,10 @@ p.bio-text-secondary {
     font-family: "Inter", sans-serif;
     color: #20323d;
     margin-bottom: 12px;
+}
+
+#lfg-emoji {
+    width: 30px;
+    position: absolute;
+    bottom: 104px;
 }
