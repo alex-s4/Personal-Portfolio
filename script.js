@@ -63,41 +63,49 @@ const navConnectDropDown = document.querySelector("#connect-dropdown");
 navProj.onmouseover = function(){
     navProjDropDown.style.display = "block";
     navProjText.style.borderBottom = "5px solid #fff";
+    navProjText.style.backgroundImage = "linear-gradient(0deg, #fff 0%, #1f628d 10%)";
 }
 
 navProjDropDown.onmouseover = function(){
     navProjDropDown.style.display = "block";
     navProjText.style.borderBottom = "5px solid #fff";
+    navProjText.style.backgroundImage = "linear-gradient(0deg, #fff 0%, #1f628d 10%)";
 }
 
 navProj.onmouseout = function(){
     navProjDropDown.style.display = "none";
     navProjText.style.borderBottom = "none";
+    navProjText.style.backgroundImage = "none"
 }
 
 navProjDropDown.onmouseout = function(){
     navProjDropDown.style.display = "none";
     navProjText.style.borderBottom = "none";
+    navProjText.style.backgroundImage = "none"
 }
 
 navConnect.onmouseover = function(){
   navConnectDropDown.style.display = "block";
   navConnectText.style.borderBottom = "5px solid #fff";
+  navConnectText.style.backgroundImage = "linear-gradient(0deg, #fff 0%, #1f628d 10%)";
 }
 
 navConnectDropDown.onmouseover = function(){
   navConnectDropDown.style.display = "block";
   navConnectText.style.borderBottom = "5px solid #fff";
+  navConnectText.style.backgroundImage = "linear-gradient(0deg, #fff 0%, #1f628d 10%)";
 }
 
 navConnect.onmouseout = function(){
   navConnectDropDown.style.display = "none";
   navConnectText.style.borderBottom = "none";
+  navConnectText.style.backgroundImage = "none"
 }
 
 navConnectDropDown.onmouseout = function(){
   navConnectDropDown.style.display = "none";
   navConnectText.style.borderBottom = "none";
+  navConnectText.style.backgroundImage = "none"
 }
 
 
@@ -110,9 +118,12 @@ var currentPage = window.location.pathname;
 switch (currentPage) {
   case "/index.html":
     navHomeText.style.borderBottom = "5px solid #fff"
+    navHomeText.style.backgroundImage = "linear-gradient(0deg, #fff 0%, #1f628d 10%)"
+
     break;
   case "/about.html":
     navAboutText.style.borderBottom = "5px solid #fff"
+    navAboutText.style.backgroundImage = "linear-gradient(0deg, #fff 0%, #1f628d 10%)"
     console.log("x")
     break;
 }

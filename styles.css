@@ -91,6 +91,7 @@ nav {
 .nav-main a:hover {
     text-decoration: none;
     border-bottom: 5px solid #fff;
+    background-image: linear-gradient(0deg, #fff 0%, #1f628d 10%);
 }
 
 .nav-brand {
