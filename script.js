@@ -102,3 +102,16 @@ navConnectDropDown.onmouseout = function(){
 
 
 // NAV MENU INDICATOR ON CURRENT PAGE
+const navHomeText = document.querySelector("#nav-home a");
+const navAboutText = document.querySelector("#nav-about a");
+
+var currentPage = window.location.pathname;
+
+switch (currentPage) {
+  case "/index.html":
+    navHomeText.style.borderBottom = "5px solid #fff"
+    break;
+  case "/about.html":
+    navAboutText.style.borderBottom = "5px solid #fff"
+    break;
+}
