@@ -214,6 +214,7 @@ nav {
     line-height: 100px;
     margin-top: 10px;
     z-index: 990;
+    color: #20323d;
 }
 
 .jumbotron-text span{
@@ -353,6 +354,7 @@ nav {
     text-align: center;
     margin-top: 14px;
     word-spacing: 0.5rem;
+    color: #20323d;
 }
 
 .dropdown {
