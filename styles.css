@@ -475,6 +475,24 @@ p.bio-text-secondary {
     margin-bottom: 12px;
 }
 
+img.agile-ninja-logo {
+    width: 395px;
+    margin: 0 25px 35px 0;
+}
+
+img.agile-ninja-snapshot-1 {
+    display: block;
+    margin: 135px auto;
+    width: 900px;
+    text-align: center;
+    box-shadow: 5px 10px 7px #20323d;
+    transition: transform 0.4s;
+}
+
+img.agile-ninja-snapshot-1:hover {
+    transform: scale(1.5);
+}
+
 #lfg-emoji {
     width: 30px;
     position: absolute;
