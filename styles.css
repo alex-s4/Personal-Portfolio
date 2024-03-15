@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Londrina+Solid:wght@100;300;400;900&family=Londrina+Sketch&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     margin: 0;
@@ -24,8 +24,17 @@
     font-family: "Rock Salt", cursive;
 }
 
+h1.londrina-solid{
+    font-family: "Londrina Solid", sans-serif;
+}
+
+.londrina-sketch{
+    font-family: "Londrina Sketch", sans-serif;
+    /* font */
+}
+
 .primary-text-color {
-    color: #184c6d;
+    color: #18c46d;
 }
 
 .pp-color {
@@ -160,7 +169,7 @@ nav {
     -webkit-border-radius: 10;
     -moz-border-radius: 10;
     border-radius: 10px;
-    font-family: Courier New;
+    font-family: "Londrina Solid";
     color: #1f628d;
     font-size: 1.5rem;
     font-weight: 600;
@@ -168,9 +177,10 @@ nav {
     padding: 8px 48px;
     border: solid #1f628d 2px;
     text-decoration: none;
-    margin-bottom: 8px;
     width: 26em;
-    transition: color 0.4s, background 1s;
+    transition: color 0.4s;
+    margin-bottom: 69px;
+    letter-spacing: 3px;
     /* transition: background-image 0.4s; */
 }
 
@@ -214,7 +224,9 @@ nav {
     line-height: 100px;
     margin-top: 10px;
     z-index: 990;
-    color: #20323d;
+    color: #e9eff3;
+    background-color: #11364e;
+    padding: 15px
 }
 
 .jumbotron-text span{
@@ -223,14 +235,16 @@ nav {
 
 .main-display-text-1{
     margin-bottom: 10px;
+    letter-spacing: 3px;
+    font-size: 2.3em;
 }
 
 .main-display-text-2 {
-    margin-bottom: 65px;
+    margin-bottom: 30px;
     
 }
 
-.main-display-text-2 h2, .main-display-text-2 h2 span {
+.main-display-text-2 h3, .main-display-text-2 h3 span {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
 }
@@ -333,10 +347,6 @@ nav {
 
 .tech-stacks-cont {
     margin-bottom: 75px;
-}
-
-.btn-main {
-    margin-bottom: 69px;
 }
 
 .still-learning-text {
