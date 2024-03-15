@@ -130,6 +130,6 @@ switch (currentPage) {
 
 const landingAboutBtn = document.getElementById("landing-about-btn");
 
-landingAboutBtn.onclick = function () {
-  location.href = "/about.html";
-}
+// landingAboutBtn.onclick = function () {
+//   location.href =  + "/about.html";
+// }
