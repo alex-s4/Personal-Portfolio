@@ -432,6 +432,7 @@ nav {
 
 .bio-main-img {
     width: 603px;
+    border: 4px solid #1f628d;
 }
 
 h1.bio-title-primary {
