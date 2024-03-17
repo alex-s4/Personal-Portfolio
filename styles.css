@@ -216,6 +216,15 @@ nav {
     cursor: pointer;
 }
 
+img.struggling-web-img{
+    position: absolute;
+    height: 320px;
+    transform: rotate(7deg);
+    z-index: 990;
+    top: 89px;
+    right: 304px;
+}
+
 .center-cont {
     margin-bottom: 60px;
 }
